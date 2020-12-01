@@ -1,9 +1,9 @@
 module.exports = {
-    title: '南宫的博客',
-    description: '南宫的博客',
+    title: '标题',
+    description: '描述',
     head: [ // 注入到当前页面的 HTML <head> 中的标签
       ['link', { rel: 'icon', href: '/avatar.png' }], // 增加一个自定义的 favicon(网页标签的图标)
-      ['link', { rel: 'manifest', href: '/avatar.png' }],
+      // ['link', { rel: 'manifest', href: '/avatar.png' }],
       ['link', { rel: 'apple-touch-icon', href: '/avatar.png' }],
     ],
     markdown: {
